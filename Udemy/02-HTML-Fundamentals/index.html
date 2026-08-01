@@ -7,8 +7,9 @@
     <title>The Basic Language of the web: HTML</title>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
+
       <nav>
         <a href="blog.html">BLOG</a>
         <a href="#">Challenges</a>
@@ -60,7 +61,7 @@
       </p>
       <p>In HTML, each element is made up of 3 parts:</p>
       <ol>
-        <li>The opening tag</li>
+        <li class="first-li">The opening tag</li>
         <li>The closing tag</li>
         <li>The actual element</li>
       </ol>
@@ -69,6 +70,7 @@
         <a href="https://developer.mozilla.org/en-US/" target="_blank"
           >MDN Web Docs</a
         >
+        <a>test a</a>
       </p>
       <h3>Why should you learn HTML?</h3>
       <p>
@@ -76,7 +78,9 @@
         web. Here are 5 of them:
       </p>
       <ul>
-        <li>To be able to use the fundamental web dev language</li>
+        <li class="first-li">
+          To be able to use the fundamental web dev language
+        </li>
         <li>
           To hand-craft beautiful websites instead of relying on tools like
           Worpress or Wix
@@ -89,7 +93,7 @@
     </article>
     <aside>
       <h4>Related posts</h4>
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="img/related-1.jpg"
@@ -97,7 +101,7 @@
             height="75"
             width="75"
           /><a href="#">How to Learn Web Development</a>
-          <p>By Jonas Schmedtmann</p>
+          <p class="related-author">By Jonas Schmedtmann</p>
         </li>
         <li>
           <img
@@ -106,7 +110,7 @@
             height="75"
             width="75"
           /><a href="#">The Unknown Power of CSS</a>
-          <p>By Jim Dillown</p>
+          <p class="related-author">By Jim Dillown</p>
         </li>
         <li>
           <img
@@ -115,12 +119,12 @@
             height="75"
             width="75"
           /><a href="#">Why JavaScript is Awesome</a>
-          <p>By John Matilda</p>
+          <p class="related-author">By John Matilda</p>
         </li>
       </ul>
     </aside>
     <footer>
-      <p>Copyright &copy; 2027 by The Code Magazine</p>
+      <p id="copyright">Copyright &copy; 2027 by The Code Magazine</p>
     </footer>
   </body>
 </html>
