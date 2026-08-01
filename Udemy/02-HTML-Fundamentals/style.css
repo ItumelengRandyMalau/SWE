@@ -13,6 +13,7 @@ body {
   background-color: #05040528;
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 nav {
@@ -31,6 +32,7 @@ aside {
   border-bottom: 5px solid #1098ad;
   padding: 50px 0px;
   margin-bottom: 60px;
+  width: 500px;
 }
 
 h1,
@@ -138,6 +140,10 @@ a:hover {
 a:active {
   background-color: #0e272b;
   font-style: italic;
+}
+.post-img {
+  width: 100%;
+  height: auto;
 }
 #copyright {
   color: red;
