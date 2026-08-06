@@ -53,21 +53,27 @@
   width: 22px;
   display: inline-block;
   margin-right: 10px;
+  cursor: pointer;
 }
 .color-blue {
   background-color: blue;
+  cursor: pointer;
 }
 .color-red {
   background-color: red;
+  cursor: pointer;
 }
 .color-yellow {
   background-color: yellow;
+  cursor: pointer;
 }
 .color-green {
   background-color: green;
+  cursor: pointer;
 }
 .color-brown {
   background-color: brown;
+  cursor: pointer;
 }
 .product-details {
   list-style-type: square;
