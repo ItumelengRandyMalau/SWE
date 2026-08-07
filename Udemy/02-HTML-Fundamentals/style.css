@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -19,18 +19,36 @@ body {
   background-color: #05040528;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  height: 20px;
 }
 
 nav {
-  font-size: 18px;
+  font-size: 15px;
+  float: right;
 }
 
 article {
   margin-bottom: 60px;
+  position: relative;
 }
 .post-header {
   margin-bottom: 40px;
+  position: relative;
+}
+
+article::before {
+  content: "TOP";
+
+  position: absolute;
+
+  top: -10px;
+  right: -20px;
+
+  background: yellow;
+  padding: 5px 10px;
+
+  font-size: 12px;
+  font-weight: bold;
 }
 aside {
   background-color: #05040528;
@@ -179,4 +197,44 @@ button {
 #copyright {
   color: red;
   padding: 20px;
+}
+
+/* FLOATS */
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+.author {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+h1 {
+  float: left;
+}
+.nav {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* flex box demo */
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
