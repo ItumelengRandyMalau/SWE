@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /* PAGE SECTIONS */
 body {
@@ -54,9 +55,7 @@ aside {
   background-color: #05040528;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0px;
-  margin-bottom: 60px;
-  width: 500px;
+  padding: 50px 40px;
 }
 /* SMALLER ELEMENTS */
 h1,
@@ -82,6 +81,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 p {
   font-size: 22px;
@@ -123,6 +123,7 @@ article header p {
 } */
 .related {
   list-style: none;
+  margin-left: 0px;
 }
 
 /* we follow this order LVHA to style links */
