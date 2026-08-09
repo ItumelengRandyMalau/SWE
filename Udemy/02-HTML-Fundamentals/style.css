@@ -239,3 +239,18 @@ aside {
 footer {
   clear: both;
 }
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 75px;
+  margin-bottom: 60px;
+}
+
+.article {
+  flex: 0 0 825px;
+  margin-bottom: 0;
+}
+.aside {
+  flex-basis: 0 0 300px;
+}
