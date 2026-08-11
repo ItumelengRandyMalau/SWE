@@ -265,6 +265,7 @@ flex-basis: auto;
   grid-template-columns: 1fr 300px;
   column-gap: 75px;
   row-gap: 60px;
+  align-items: start;
 }
 
 .main-header {
